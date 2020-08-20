@@ -2,11 +2,11 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/pro-eagle.png') {
+    if(mySrc === 'images/Mozilla.png') {
       myImage.setAttribute('src','images/fish-eagle.png');
     } else {
       myImage.setAttribute('src','images/hunt-eagle.png');
-    }
+    } 
 }
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
